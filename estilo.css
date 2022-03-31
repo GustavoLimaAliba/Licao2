@@ -1,0 +1,144 @@
+.header{
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+    /* border: 3px solid yellow; */
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 600px;
+    align-items: center;
+    color: #E3b062;
+    /* border: 3px solid blue; */
+}
+
+.agora{
+    font-weight: 1000;
+}
+
+/* .header h1 {
+    border: 3px solid green;
+}
+
+.header li {
+    border: 3px solid green;
+} */
+.banner{
+    height: 500px;
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+}
+.banner .container{
+height: 100%;
+display: flex;
+justify-content:center;
+align-items: center;
+color: white;
+
+}
+.banner .container p {
+width: 250px;
+margin: 0;
+padding: 0;
+font-size: 30px;
+
+}
+.banner span{
+    font-weight: bold;
+    
+    }
+
+li a{
+    text-decoration: none;
+    color: #E3b062;
+
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 30px;
+    border: 1px solid #32b9cd;
+    border-radius: 10px;
+}
+.btn {
+    font-family: monospace;
+    border: 0;
+    border-radius: 4px;
+    background-color: #e6005a;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 0;
+    width: 75px;
+   align-self: center;
+    }
+    .btn2 {
+        font-family: monospace;
+        border: 0;
+        border-radius: 4px;
+    color: #e6005a;
+    font-weight: bolder;
+    width: 75px;
+   border-bottom: 3px solid #e6005a;
+        }
+        .banner .card  {
+            background-color: #e5e5e5;
+            width: 400px;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            color: #e6005a;
+           
+        }
+        .box {
+            background-color: #e5e5e5;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            
+            
+        }
+        .imagens2 {
+            background-color: black;
+            height: 600px;
+            justify-content: space-around;
+            
+        }
+        
+        
+        
+        
+        
+        
+        .footer {
+            background-color: #32b9cd;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            height: 200px;
+        }
+
