@@ -1,3 +1,4 @@
+
 .flex-item {
     width: 100px;
     height: 100px;
@@ -35,13 +36,13 @@ h1 {
 /* Insira o código abaixo */
 
  .container1 {
-  display: flex;
+    display: flex;
     justify-content: flex-start;
 }
 
 .container2 {
     display: flex;
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .container3 {
@@ -60,17 +61,16 @@ h1 {
 .container6 {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    
 } 
 
-.container-exercicioB{
+.container-exercicio-B{
     display: flex;
     flex-direction: column-reverse;
+
 }
 
 .container-desafio{
-display: flex;
-flex-direction:row-reverse;
-justify-content: start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
